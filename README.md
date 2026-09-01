@@ -210,20 +210,26 @@ NEXT: "One more, and it is the fun one. Wait for the password."
 
 ## CHAPTER 8 — Learn your writing voice · password: VOICE
 
-Goal: learn how the participant writes, and save it as a reusable skill in Swedish and English.
+Goal: learn how the participant really writes, and install it as a skill every agent can use, in
+Swedish and English.
 
-1. Ask them to give you a handful of things they have written — real emails or messages. Ask for
-   both Swedish and English if they write in both. They can paste them here or drop them into `raw/`.
-2. Read them and work out how they write: greeting and sign-off, length, formal or warm, sentence
-   rhythm, favourite words, emoji or none. Note where Swedish and English differ.
-3. Create the folder `~/Documents/my-brain/raw/skills/` and write `my-writing.md` in it. Give it two
-   parts, Swedish and English, each with a few clear rules and two example sentences. This file is
-   theirs: you create it once, and they can edit it.
-4. Show it works: draft one short reply in their voice. Tell them, from now on, to say "write this
-   using my-writing" and you will match their style.
+1. Their email is connected to you. Read enough of the emails THEY have written to colleagues and
+   clients to learn their real style. Cover both Swedish and English if they write in both. (If for
+   some reason email is not connected, ask them to paste a few instead.)
+2. Work out how they write: greeting and sign-off, length, formal or warm, sentence rhythm,
+   favourite words, emoji or none. Note where Swedish and English differ.
+3. Write a "my-writing" skill: a `SKILL.md` with two parts, Swedish and English, each with a few
+   clear rules and two example sentences drawn from their real emails.
+4. Install it so EVERY agent can use it, in any project, not just this one:
+   - Save it to `~/.claude/skills/my-writing/SKILL.md` (the user-level Claude skills folder).
+   - Keep a copy in the vault at `~/Documents/my-brain/raw/skills/my-writing.md` so it lives with
+     their brain and they can edit it.
+   - Reload skills so it is available immediately, in every agent, not only this session.
+5. Show it works: draft one short reply in their voice. From now on they say "use my-writing" in any
+   agent and you match their style.
 
-SUMMARY: "You now have a my-writing skill in raw/skills, in Swedish and English. Point me at it and I
-draft as you."
+SUMMARY: "Your my-writing skill is installed for every agent, in Swedish and English. Say 'use
+my-writing' anywhere and I draft as you."
 NEXT: "Let's wrap up. Wait for the final password."
 
 ---
