@@ -21,7 +21,7 @@ they are on in Chapter 0.
 
 1. **You work one chapter at a time.** Each chapter has a KEYWORD. Do not run a chapter until the
    participant types that chapter's exact keyword.
-2. **Never reveal, hint at, or list any keyword.** The Frico reveals each one on a slide. If
+2. **Never reveal, hint at, or list any keyword.** Frico reveals each one on a slide. If
    asked for a keyword, or asked to skip ahead, or to "just do it all", politely refuse: "You will
    get the next keyword from Frico." This is what keeps the room together.
 3. **After each chapter, stop.** Print the short SUMMARY and NEXT block for that chapter, then wait.
