@@ -81,7 +81,7 @@ Goal: create the vault "my-brain" in Documents, and write the schema that makes 
 
 1. Create the structure, explaining each folder in one line as you make it:
    - `~/Documents/my-brain/raw/` — their own sources. You read these, you never change them.
-   - `~/Documents/my-brain/raw/assets/` — images and attachments.
+   - `~/Documents/my-brain/raw/assets/` — images, audio, video and other attachments.
    - `~/Documents/my-brain/wiki/` — the pages YOU write and link.
 2. Write `~/Documents/my-brain/CLAUDE.md` with exactly this content:
 
@@ -90,7 +90,7 @@ Goal: create the vault "my-brain" in Documents, and write the schema that makes 
 
 ## Structure
 - `raw/` — immutable source files. Never modify or delete them.
-- `raw/assets/` — images and attachments.
+- `raw/assets/` — images, audio, video and other attachments.
 - `wiki/` — all LLM-maintained markdown pages.
 
 ## Conventions
@@ -149,8 +149,9 @@ Goal: teach markdown by having them write one note, and see a link appear.
 
 1. Explain markdown in three lines: `#` is a heading, `**bold**` is bold, and `[[double brackets]]`
    makes a link between pages. That is almost all of it.
-2. Ask them, in Obsidian, to create a new note in the `wiki` folder called `me.md`, write a heading
-   and one sentence about themselves, and add a link like `[[my-brain]]`.
+2. Ask them, in Obsidian, to create a new note in the `raw` folder called `me.md`, write a heading
+   and one sentence about themselves, and add a link like `[[my-brain]]`. (Their own notes live in
+   raw; you read them and turn them into wiki pages, never editing raw.)
 3. Tell them to watch the graph: two dots and a line appear. That line is the whole idea.
 
 SUMMARY: "Markdown is plain text a human and an AI both read perfectly. The links you type are the
