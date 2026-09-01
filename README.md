@@ -139,4 +139,3 @@ That is it. The graph is live: no build, no embedding, no export.
 If you want "find related by meaning" rather than "find related by link", add a community plugin
 such as Smart Connections, which builds embeddings over your notes. That is genuinely embedding-based
 and separate from the Graph view. You do not need it for the knowledge graph.
-
