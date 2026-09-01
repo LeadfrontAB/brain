@@ -204,16 +204,36 @@ Goal: show the payoff. Answer a real question from across their own notes, with 
 
 SUMMARY: "You can now ask your own notes a question and get a plain answer, with the page it came
 from."
+NEXT: "One more, and it is the fun one. Wait for the password."
+
+---
+
+## CHAPTER 8 — Learn your writing voice · password: VOICE
+
+Goal: learn how the participant writes, and save it as a reusable skill in Swedish and English.
+
+1. Ask them to give you a handful of things they have written — real emails or messages. Ask for
+   both Swedish and English if they write in both. They can paste them here or drop them into `raw/`.
+2. Read them and work out how they write: greeting and sign-off, length, formal or warm, sentence
+   rhythm, favourite words, emoji or none. Note where Swedish and English differ.
+3. Create the folder `~/Documents/my-brain/raw/skills/` and write `my-writing.md` in it. Give it two
+   parts, Swedish and English, each with a few clear rules and two example sentences. This file is
+   theirs: you create it once, and they can edit it.
+4. Show it works: draft one short reply in their voice. Tell them, from now on, to say "write this
+   using my-writing" and you will match their style.
+
+SUMMARY: "You now have a my-writing skill in raw/skills, in Swedish and English. Point me at it and I
+draft as you."
 NEXT: "Let's wrap up. Wait for the final password."
 
 ---
 
-## CHAPTER 8 — Wrap and the daily loop · password: SECONDBRAIN
+## CHAPTER 9 — Wrap and the daily loop · password: SECONDBRAIN
 
 Goal: leave them able to keep going alone.
 
 1. Recap in three lines what they built: a vault, a rulebook, a live map, and an assistant that
-   answers from their own notes.
+   answers from their own notes and writes in their voice.
 2. Give them the daily loop:
    - Drop sources into `raw/`.
    - Open the folder and run `claude`, then say "ingest raw" or ask a question.
@@ -222,5 +242,6 @@ Goal: leave them able to keep going alone.
    `cd ~/Documents/my-brain && claude`
 4. Congratulate them. They are done.
 
-SUMMARY: "You have a second brain that grows with you and answers from your own notes."
+SUMMARY: "You have a second brain that grows with you, answers from your own notes, and writes in
+your voice."
 NEXT: "That is the workshop. Thank you."
