@@ -1,15 +1,8 @@
----
-tags: [llm-wiki, setup, guide, obsidian, claude-code, onboarding]
-created: 2026-08-31
-updated: 2026-08-31
-sources: [wiki/llm-wiki.md, CLAUDE.md, hands-on setup of this vault]
----
-
 # LLM-wiki — first-time setup on a new Mac (by the book)
 
 A step-by-step for setting up an LLM-wiki from scratch: the folder layout, Claude Code as the
 maintainer, Obsidian as the reader, and the schema that makes Claude link pages into a knowledge
-graph. See [[llm-wiki]] for the underlying pattern.
+graph. It is the pattern this repository documents.
 
 ## The one thing to understand first
 
